@@ -120,6 +120,8 @@ header {
 .logo-img {
     height: 50px;
     width: auto;
+    max-height: 50px;
+    object-fit: contain;
 }
 
 .header-cta {
