@@ -109,6 +109,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    gap: 12px;
     text-decoration: none;
     transition: transform 0.2s ease;
 }
@@ -122,6 +123,14 @@ header {
     width: auto;
     max-height: 50px;
     object-fit: contain;
+}
+
+.logo-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    font-family: var(--font-primary);
+    letter-spacing: 0.5px;
 }
 
 .header-cta {
@@ -592,6 +601,10 @@ footer p {
         height: 40px;
     }
     
+    .logo-text {
+        font-size: 1rem;
+    }
+    
     .hero {
         padding: 60px 0 50px;
     }
@@ -620,6 +633,10 @@ footer p {
     
     .logo-img {
         height: 35px;
+    }
+    
+    .logo-text {
+        font-size: 0.875rem;
     }
     
     .cta-benefit {
